@@ -2,44 +2,80 @@
 layout: default
 ---
 
-<div style="display:flex; align-items:flex-start; gap:30px;">
+<div style="display:flex; align-items:flex-start; gap:40px;">
 
-  <!-- Left section -->
-  <div style="width:250px;">
+  <!-- Left sidebar -->
+  <div style="width:250px; position:sticky; top:20px;">
 
     <img src="/images/jekyll-logo.png"
          alt="Profile photo"
          style="width:100%; border-radius:10px;">
 
-    <p>
+    <p style="margin-top:15px;">
       Condensed matter physicist working on
       moiré systems and quantum capacitance.
     </p>
+
   </div>
-</div>
 
-<h1> About Me</h1>
-<hr>
-I am Yashashwani, a master's student with a deep interest in Condensed Matter Physics, especially the field of correlated electron systems and the emergence of novel electronic phenomenon as a consequence. <br>
+  <!-- Right content -->
+  <div style="flex:1;">
 
-My interest in this field started upon my introduction to the idea of Superconductivity in my undergraduate years. The idea of electron-electron interactions leading to the emergence of a macroscopic quantum mechanical state got me invested in trying to understand what happens when electronic correlations dominate in a system and their consequences.
+    <h1>About Me</h1>
+    <hr>
 
-<h1> Blog </h1>
-<hr>
-I have a <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">Blog</a> where I talk about the topics I find interesting in Condensed Matter Physics and Physics in general.
+    <p>
+      I am Yashashwani, a master's student with a deep interest in
+      Condensed Matter Physics, especially the field of correlated
+      electron systems and the emergence of novel electronic
+      phenomena as a consequence.
+    </p>
 
-  
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+    <p>
+      My interest in this field started upon my introduction to the
+      idea of Superconductivity in my undergraduate years.
+      The idea of electron-electron interactions leading to the
+      emergence of a macroscopic quantum mechanical state got me
+      invested in trying to understand what happens when electronic
+      correlations dominate in a system and their consequences.
+    </p>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <h1>Blog</h1>
+    <hr>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+    <p>
+      I have a
+      <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/"
+         target="_blank">
+         Blog
+      </a>
+      where I talk about the topics I find interesting in
+      Condensed Matter Physics and Physics in general.
+    </p>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+    <div class="posts">
+      {% for post in site.posts %}
+        <article class="post">
+
+          <h1>
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </h1>
+
+          <div class="entry">
+            {{ post.excerpt }}
+          </div>
+
+          <a href="{{ site.baseurl }}{{ post.url }}"
+             class="read-more">
+             Read More
+          </a>
+
+        </article>
+      {% endfor %}
+    </div>
+
+  </div>
+
 </div>
