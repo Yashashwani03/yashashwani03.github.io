@@ -5,7 +5,9 @@ permalink: /projects/
 ---
 
 <style>
-.page-title {text-align: center;}
+.page-title {
+  text-align: center;
+}
 </style>
 
 <h2> Probing Thermodynamic Compressibility of low dimensional systems using Quantum Capacitance measurements </h2>
