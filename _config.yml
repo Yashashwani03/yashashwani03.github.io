@@ -9,7 +9,7 @@ name: Yashashwani's website
 description: Hi! I am Yashashwani Garg.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/Yashashwani03/yashashwani03.github.io/blob/master/images/favicon.png
+avatar: /images/favicon.png
 
 #
 # Flags below are optional
