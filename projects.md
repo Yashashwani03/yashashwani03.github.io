@@ -14,5 +14,12 @@ permalink: /projects/
 
 </p>
 <h3> Superconductivity: A sneak-peek into the Bardeen-Cooper-Schreiffer Theory </h3>
+<p>
+  The brain child of Bardeen, Cooper and Schrieffer, the BCS theory of superconductivity explains the underlying physics of what we now know as Conventional Superconductors. These systems are unstable towards the formation of eletron-electron pairs, forming a condensate of Cooper pairs, gapped from the normal state that houses individual electrons, via the superconducting gap. 
+  This theory was the first to provide a comprehensive description of what actually goes on inside a superconductor. 
+</p>
 <h3> Flux Growth of Single Crystals </h3>
+<p>
+  
+</p>
 
